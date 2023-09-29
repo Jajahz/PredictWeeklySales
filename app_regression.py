@@ -4,7 +4,6 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, r2_score
 import joblib
-import sklearn
 
 # Load the saved model from a file
 model_filename = 'linear_regression_model.pkl'
